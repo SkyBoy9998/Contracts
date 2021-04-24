@@ -2,12 +2,12 @@
 
 pragma solidity 0.6.12;
 
-import "@openzeppelin/contracts/math/SafeMath.sol";
-import "./libs/IBEP20.sol";
-import "./libs/SafeBEP20.sol";
+import "@openzeppelin/contracts/utils/math/SafeMath.sol";
+import "https://github.com/SkyBoy9998/Contracts/blob/main/contracts/libs/IBEP20.sol";
+import "https://github.com/SkyBoy9998/Contracts/blob/main/contracts/libs/SafeBEP20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-import "./FenixToken.sol";
+import "https://github.com/SkyBoy9998/Contracts/blob/main/contracts/FenixToken.sol";
 
 // MasterChef is the master of Fenix. He can make Fenix and he is a fair guy.
 //

@@ -1,6 +1,6 @@
 pragma solidity 0.6.12;
 
-import "./libs/BEP20.sol";
+import "https://github.com/SkyBoy9998/Contracts/blob/main/contracts/libs/BEP20.sol";
 
 // FenixToken with Governance.
 contract FenixToken is BEP20('FenixSwap Token', 'FENIX') {
